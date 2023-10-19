@@ -69,6 +69,7 @@ const NotHome = () => {
         Famous people I think are cool:
         <li>Pat Tillman</li>
         <li>Joel Houston</li>
+        <li>Dafran</li>
       </ul>
       But please regard everything as YMMV, and pre-apologies for any TLDR
     </div>
