@@ -1,22 +1,17 @@
 import React from "react";
-import "./styles.scss";
-import { links } from "./content";
-import Tabs from "../../common/Tabs";
+import "./styles.css";
+import { Icon } from "semantic-ui-react";
 
-const Nav = () => {
-  const [selectedIndex, setSelectedIndex] = React.useState(0);
-  const onTabChange = (index) => setSelectedIndex(index);
-
+const Nav = ({ selectedIndex, setSelectedIndex }) => {
+  const buttonLabel = ["Take a ride to my block...", "Back to All Who Wander"];
   return (
-    <div className="navContainer">
-      <Tabs
-        className="navLinksContainer"
-        tabs={links}
-        selectedIndex={selectedIndex}
-        tabClassName="navLinks"
-        onTabChange={(index) => onTabChange(index)}
-        links={true}
-      />
+    <div
+      onClick={() => setSelectedIndex(selectedIndex === 0 ? 1 : 0)}
+      className="navContainer hoverable"
+      style={{ background: "white" }}
+    >
+      {/* <Icon name="car" size="large" /> */}
+      {buttonLabel[selectedIndex]}
     </div>
   );
 };

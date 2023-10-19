@@ -1,0 +1,15 @@
+.navContainer {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  opacity: 0.5;
+}
+.navContainer:hover {
+  opacity: 1;
+}
