@@ -70,6 +70,7 @@ const NotHome = () => {
         <li>Pat Tillman</li>
         <li>Joel Houston</li>
         <li>Dafran</li>
+        <li>Bill Watterson</li>
       </ul>
       But please regard everything as YMMV, and pre-apologies for any TLDR
     </div>
