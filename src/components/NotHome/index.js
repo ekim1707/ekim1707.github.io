@@ -56,7 +56,7 @@ const NotHome = () => {
       </ul>
       <ul>
         I've had much more failures than successes, but here are some videos of
-        what i've accomplished in my free time:
+        what i've accomplished in my free time, and some other random stuff:
         <br />
         <br />
         {iframe[selectedIndex]}
