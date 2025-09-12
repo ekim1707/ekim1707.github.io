@@ -49,6 +49,10 @@ const NotHome = () => {
         <li>
           So, so you think you can tell, heaven from hell, blue skies from pain
         </li>
+        <li>
+          One reason intelligence is overrated: definition is unforgiving and
+          restricts freedom (this one is from myself)
+        </li>
       </ul>
       <ul>
         Favorite music:
