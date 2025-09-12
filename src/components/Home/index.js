@@ -12,13 +12,6 @@ const Home = () => {
         <a href="mailto: ekim43@jh.edu">Contact</a>
         <br />
         <br />
-        <a href="https://docs.google.com/document/d/1IHl9PxW29D2dVfXWqAFu3JytVS9TdNX7tXg7AcODVYI/edit?usp=sharing">
-          Read directly from docs.google.com here instead of below (it has a
-          chapter nav tool on the left side that makes things easier)
-        </a>
-        <br />
-        <br />
-        <br />
         <iframe
           width="816px"
           height="1056px"
