@@ -22,7 +22,7 @@ const Home = () => {
         <iframe
           width="816px"
           height="1056px"
-          src="https://docs.google.com/document/d/e/2PACX-1vRJab_863neLmd8Ao6m2PRbp3ssQZ3LSfNxcFVys7Lz_YbepNr7RXB7JAf-HFr8f35Xf7UJKTx18ISH/pub?embedded=true"
+          src="https://docs.google.com/document/d/e/2PACX-1vTQIheip2y6K5LIWaS7srMAPsO8tE-4uV2t5RGnzRZW57ncF9hmNj9oaoa5KC1UYlOzVA7T9tHA2Jm1/pub?embedded=true"
         ></iframe>
       </main>
     </div>

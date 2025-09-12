@@ -3,7 +3,7 @@ import "./styles.css";
 import { Icon } from "semantic-ui-react";
 
 const Nav = ({ selectedIndex, setSelectedIndex }) => {
-  const buttonLabel = ["Take a ride to my block...", "Back to All Who Wander"];
+  const buttonLabel = ["Welcome to my page!", "More to come!"];
   return (
     <div
       onClick={() => setSelectedIndex(selectedIndex === 0 ? 1 : 0)}
